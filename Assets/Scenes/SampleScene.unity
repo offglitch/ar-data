@@ -283,6 +283,7 @@ GameObject:
   - component: {fileID: 1615868646}
   - component: {fileID: 1615868645}
   - component: {fileID: 1615868644}
+  - component: {fileID: 1615868647}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -305,7 +306,8 @@ MonoBehaviour:
   m_SerializedLibrary: {fileID: 11400000, guid: b25970e85a6a0be4d9c48a80ae57fb2b,
     type: 2}
   m_MaxNumberOfMovingImages: 0
-  m_TrackedImagePrefab: {fileID: 0}
+  m_TrackedImagePrefab: {fileID: 6000699427472890503, guid: 98c18b35595b1784997b308ff86f3ab8,
+    type: 3}
 --- !u!114 &1615868645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -334,6 +336,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1615868647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1615868643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 539b06b0fe56612489b6c4fb65090e42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1762825469
 GameObject:
   m_ObjectHideFlags: 0
